@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GIF Viewer</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="scripts/app.js"></script>
+  </head>
+
+  <body>
+  	<header>
+        <h1>Tahl's GIF Viewer</h1>
+        <hr/>
+        <img width=250 src="https://i.imgur.com/gW3psad.jpg" class="img-circle">
+  	</header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <form id="gifForm" action="">
+            <input id="whatGif" type="text" name="q" placeholder="Type in critter here" />
+            <input type="hidden" name="api_key" value="dc6zaTOxFJmzC" />
+            <input id="gifSubmit" type="submit" />
+          </form>
+
+        </div>	 <!--column-->
+      </div>	   <!--row-->
+
+      <hr/>
+      
+      <div id="picsHere" class="row">
+
+
+      </div>  <!--row-->
+    </div>		<!--container-->
+
+  </body>
+</html>
